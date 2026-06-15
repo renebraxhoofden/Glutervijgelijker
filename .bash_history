@@ -352,3 +352,19 @@ git clone https://github.com/jouwgebruikersnaam/jouwrepository.git
 cd jouwrepository
 git clone https://github.com/renebraxhoofden/glutenvrij-website.git
 cd glutenvrije-website
+sudo apt update && sudo apt install git -y
+git init
+git add .
+git commit -m "Initiële commit vanuit Chromebook"
+git remote add origin https://github.com/renebraxhoofden/Glutervijgelijker
+git branch -M main
+git push -u origin main
+gh auth login
+git push -u origin main
+git fetch origin
+git push -u origin main --force
+git add
+git add .
+git commit -m
+git commit -m change logo
+git commit

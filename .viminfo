@@ -21,24 +21,52 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+"0	CHAR	0
+	#
+|3,0,0,0,1,0,1781550165,"#"
+""-	CHAR	0
+	#
+|3,1,36,0,1,0,1781550165,"#"
 
 # File marks:
-'0  6  10  ~/.git/MERGE_MSG
-|4,48,6,10,1755548437,"~/.git/MERGE_MSG"
-'1  6  12  ~/.git/MERGE_MSG
-|4,49,6,12,1755437235,"~/.git/MERGE_MSG"
+'0  17  0  ~/.git/COMMIT_EDITMSG
+|4,48,17,0,1781550188,"~/.git/COMMIT_EDITMSG"
+'1  6  10  ~/.git/MERGE_MSG
+|4,49,6,10,1755548437,"~/.git/MERGE_MSG"
+'2  6  12  ~/.git/MERGE_MSG
+|4,50,6,12,1755437235,"~/.git/MERGE_MSG"
 
 # Jumplist (newest first):
+-'  17  0  ~/.git/COMMIT_EDITMSG
+|4,39,17,0,1781550188,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1781550094,"~/.git/COMMIT_EDITMSG"
+-'  6  10  ~/.git/MERGE_MSG
+|4,39,6,10,1755548437,"~/.git/MERGE_MSG"
 -'  6  10  ~/.git/MERGE_MSG
 |4,39,6,10,1755548437,"~/.git/MERGE_MSG"
 -'  1  0  ~/.git/MERGE_MSG
 |4,39,1,0,1755548385,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1755548385,"~/.git/MERGE_MSG"
+-'  6  12  ~/.git/MERGE_MSG
+|4,39,6,12,1755437235,"~/.git/MERGE_MSG"
 -'  6  12  ~/.git/MERGE_MSG
 |4,39,6,12,1755437235,"~/.git/MERGE_MSG"
 -'  1  0  ~/.git/MERGE_MSG
 |4,39,1,0,1755437191,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1755437191,"~/.git/MERGE_MSG"
 
 # History of marks within files (newest to oldest):
+
+> ~/.git/COMMIT_EDITMSG
+	*	1781550188	0
+	"	17	0
+	^	17	0
+	.	16	0
+	+	12	33
+	+	16	0
 
 > ~/.git/MERGE_MSG
 	*	1755548437	0
