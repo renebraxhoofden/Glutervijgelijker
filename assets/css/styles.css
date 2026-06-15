@@ -1,3 +1,4 @@
+
 :root {
   --bg: #fff8f4;
   --surface: rgba(255,255,255,.92);
@@ -59,26 +60,6 @@ a{text-decoration:none;color:inherit} img{max-width:100%;height:auto;display:blo
 .flex-head{display:flex;justify-content:space-between;align-items:flex-end;gap:1rem;flex-wrap:wrap}
 .grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem} .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem} .grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}
 .card{background:rgba(255,255,255,.94);border:1px solid rgba(236,217,202,.95);border-radius:28px;box-shadow:var(--shadow)} .card-pad{padding:1.2rem} .card-top{padding:1rem 1rem 0} .card-body{padding:1rem 1rem 1.15rem}
-
-/* NIEUW: Zorgt dat de productkaartjes niet in de war raken als er nog geen foto is */
-.card-image {
-  width: calc(100% - 2rem);
-  margin: 1rem auto 0;
-  height: 180px;
-  background: var(--surface-mint);
-  border-radius: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-.card-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  background: white;
-}
-
 .icon{width:50px;height:50px;border-radius:17px;display:grid;place-items:center;background:#fff0df;color:#b35734;font-size:1.2rem;font-weight:900;margin-bottom:.8rem} .card h3{margin:.15rem 0 .45rem;letter-spacing:-.02em} .card p{margin:0 0 .75rem;color:var(--muted)}
 .pill{display:inline-flex;align-items:center;gap:.4rem;padding:.36rem .62rem;border-radius:999px;background:var(--surface-mint);border:1px solid #cde9e2;color:#247766;font-size:.8rem;font-weight:900} .meta{display:flex;gap:.55rem;flex-wrap:wrap;color:var(--muted);font-size:.92rem} .card-link{color:#b35734;font-weight:900}
 .small{color:var(--muted);font-size:.94rem} .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:.85rem;margin-top:1rem} .stat{padding:1rem;border-radius:22px;background:linear-gradient(180deg,#fff,#fff8f2);border:1px solid var(--line)} .stat strong{display:block;font-size:1.4rem;letter-spacing:-.03em}
