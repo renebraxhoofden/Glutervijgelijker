@@ -1,232 +1,92 @@
-<!doctype html>
-<html lang="nl">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#e5a29a">
-<meta name="description" content="GlutenvrijGelijker.nl helpt bezoekers met aanbiedingen, prijsvergelijkingen, veilige horeca, etiketten-uitleg, schooltips en praktische informatie over glutenvrij leven.">
-<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
-<meta name="author" content="GlutenvrijGelijker.nl">
-<link rel="canonical" href="https://glutenvrijgelijker.nl/">
-<link rel="alternate" hreflang="nl-NL" href="https://glutenvrijgelijker.nl/">
-<link rel="alternate" hreflang="x-default" href="https://glutenvrijgelijker.nl/">
-<meta property="og:type" content="website">
-<meta property="og:locale" content="nl_NL">
-<meta property="og:site_name" content="GlutenvrijGelijker.nl">
-<meta property="og:title" content="Home | GlutenvrijGelijker.nl">
-<meta property="og:description" content="GlutenvrijGelijker.nl helpt bezoekers met aanbiedingen, prijsvergelijkingen, veilige horeca, etiketten-uitleg, schooltips en praktische informatie over glutenvrij leven.">
-<meta property="og:url" content="https://glutenvrijgelijker.nl/">
-<meta property="og:image" content="https://glutenvrijgelijker.nl/assets/img/og-image.png">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Home | GlutenvrijGelijker.nl">
-<meta name="twitter:description" content="GlutenvrijGelijker.nl helpt bezoekers met aanbiedingen, prijsvergelijkingen, veilige horeca, etiketten-uitleg, schooltips en praktische informatie over glutenvrij leven.">
-<meta name="twitter:image" content="https://glutenvrijgelijker.nl/assets/img/og-image.png">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: https:; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
-<meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
-<meta http-equiv="X-Content-Type-Options" content="nosniff">
-<meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=(), payment=()">
-<link rel="icon" href="assets/img/favicon.png" type="image/png">
-<link rel="stylesheet" href="assets/css/styles.css">
-<title>Home | GlutenvrijGelijker.nl</title>
-</head>
-<body>
-<a href="#maincontent" class="skip-link">Direct naar inhoud</a>
-<div class="topbar"><div class="container">Nieuwe V7 • affiliate-ready • SEO & AI-search proof • mixbook-geïnspireerde premium uitstraling</div></div>
-<header class="header">
-  <div class="container nav">
-    <a href="index.html" class="brand" aria-label="Ga naar home van GlutenvrijGelijker.nl">
-      <span class="logo-mark"><img src="assets/img/logo-mark.png" alt="Logo van GlutenvrijGelijker.nl"></span>
-      <span>GlutenvrijGelijker.nl<small>Glutenvrij slimmer, goedkoper en duidelijker.</small></span>
-    </a>
-    <nav class="navlinks" aria-label="Hoofdmenu">
-      <a data-nav href="index.html">Home</a>
-      <a data-nav href="aanbiedingen.html">Aanbiedingen</a>
-      <a data-nav href="veilig-glutenvrij.html">Veilig glutenvrij</a>
-      <a data-nav href="restaurants.html">Restaurants</a>
-      <a data-nav href="uit-eten.html">Uit eten</a>
-      <a data-nav href="school-kinderen.html">School & kinderen</a>
-      <a data-nav href="diagnose.html">Diagnose</a>
-      <a data-nav href="contact.html">Contact</a>
-    </nav>
-  </div>
-</header>
+:root {
+  --bg: #fff8f4;
+  --surface: rgba(255,255,255,.92);
+  --surface-soft: #fff4ef;
+  --surface-mint: #f2faf8;
+  --text: #1d1a18;
+  --muted: #655c58;
+  --line: #ecd9ca;
+  --brand: #e5a29a;
+  --brand-2: #d29df4;
+  --brand-3: #9ab8f4;
+  --brand-4: #4f8b3c;
+  --brand-dark: #17386f;
+  --shadow: 0 18px 60px rgba(100,67,39,.10);
+  --shadow-strong: 0 26px 85px rgba(87,57,31,.15);
+  --max: 1220px;
+  --radius-xl: 34px;
+  --radius-lg: 24px;
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--text);background:
+radial-gradient(circle at 0% 0%, rgba(154,184,244,.30), transparent 23%),
+radial-gradient(circle at 100% 0%, rgba(210,157,244,.28), transparent 24%),
+linear-gradient(180deg,#fffdfa 0%, #fff8f4 48%, var(--bg) 100%);line-height:1.65}
+a{text-decoration:none;color:inherit} img{max-width:100%;height:auto;display:block}
+.container{width:min(100% - 32px, var(--max));margin:0 auto} .narrow{width:min(100% - 32px, 920px);margin:0 auto}
+.skip-link{position:absolute;left:-9999px;top:0} .skip-link:focus{left:16px;top:12px;z-index:200;background:white;border:1px solid var(--line);padding:.7rem 1rem;border-radius:12px}
+.topbar{background:linear-gradient(90deg,#ffeade,#f6e7ff);border-bottom:1px solid rgba(229,162,154,.30)}
+.topbar .container{display:flex;justify-content:center;padding:.72rem 0;color:#aa675f;font-weight:800;font-size:.95rem;text-align:center}
+.header{position:sticky;top:0;z-index:50;backdrop-filter:blur(16px);background:rgba(255,250,247,.84);border-bottom:1px solid rgba(236,217,202,.8)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1rem 0}
+.brand{display:flex;align-items:center;gap:.92rem;font-weight:900;letter-spacing:-.03em}
+.brand small{display:block;color:var(--muted);font-size:.87rem;font-weight:700}
+.logo-mark{width:58px;height:58px;border-radius:18px;overflow:hidden;box-shadow:var(--shadow);background:white;border:1px solid rgba(236,217,202,.9)}
+.logo-mark img{width:100%;height:100%;object-fit:cover}
+.navlinks{display:flex;align-items:center;gap:.35rem;flex-wrap:wrap}
+.navlinks a{padding:.78rem .96rem;border-radius:14px;color:var(--muted);font-weight:800}
+.navlinks a:hover,.navlinks a.active{background:#fff2e9;color:#b35734}
+.hero{padding:4.6rem 0 2rem}
+.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:1.15rem;align-items:stretch}
+.panel{background:var(--surface);border:1px solid rgba(255,255,255,.9);box-shadow:var(--shadow);border-radius:var(--radius-xl);backdrop-filter:blur(10px)}
+.hero-main{padding:2.1rem 2.1rem 2.3rem;position:relative;overflow:hidden}
+.hero-main::before{content:'';position:absolute;right:-110px;top:-90px;width:280px;height:280px;background:radial-gradient(circle, rgba(210,157,244,.35), transparent 65%);border-radius:50%}
+.hero-main::after{content:'';position:absolute;left:-90px;bottom:-90px;width:220px;height:220px;background:radial-gradient(circle, rgba(154,184,244,.28), transparent 65%);border-radius:50%}
+.badge{display:inline-flex;align-items:center;gap:.5rem;padding:.58rem .9rem;border-radius:999px;background:#fff2e9;border:1px solid #ffd9bb;color:#b35734;font-weight:800;font-size:.86rem}
+.hero h1{font-size:clamp(2.7rem,6vw,5.2rem);line-height:1.02;letter-spacing:-.06em;margin:1rem 0;max-width:12ch}
+.hero p{color:var(--muted);font-size:1.08rem;max-width:66ch}
+.hero-actions{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:1.35rem}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;padding:1rem 1.2rem;border-radius:18px;font-weight:900;border:1px solid transparent;cursor:pointer}
+.btn-primary{background:linear-gradient(135deg,var(--brand),#f3885f);color:white;box-shadow:var(--shadow)}
+.btn-secondary{background:linear-gradient(135deg,var(--brand-3),var(--brand-2));color:var(--brand-dark)}
+.btn-ghost{background:transparent;border-color:#e4c6b3;color:#9d593d}
+.mosaic{padding:1.1rem;display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.mosaic-card{background:linear-gradient(180deg,#ffffff,#fff8f2);border:1px solid var(--line);border-radius:28px;padding:1rem;box-shadow:var(--shadow)}
+.mosaic-card.big{grid-column:span 2} .mosaic-card h3{margin:.2rem 0 .35rem;font-size:1.08rem} .mosaic-card p{margin:0;color:var(--muted);font-size:.95rem}
+.ribbon{display:inline-flex;padding:.36rem .65rem;border-radius:999px;background:#f2faf8;border:1px solid #cde9e2;color:#247766;font-size:.78rem;font-weight:900}
+.mixbook-visual img{border-radius:30px;box-shadow:var(--shadow-strong);border:1px solid rgba(255,255,255,.7)}
+.section{padding:2.7rem 0} .kicker{font-size:.86rem;font-weight:900;letter-spacing:.10em;text-transform:uppercase;color:#b35734} .section h2{font-size:clamp(1.9rem,3.6vw,3.2rem);line-height:1.08;letter-spacing:-.04em;margin:.35rem 0 .7rem} .lead{color:var(--muted);max-width:76ch}
+.flex-head{display:flex;justify-content:space-between;align-items:flex-end;gap:1rem;flex-wrap:wrap}
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem} .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem} .grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}
+.card{background:rgba(255,255,255,.94);border:1px solid rgba(236,217,202,.95);border-radius:28px;box-shadow:var(--shadow)} .card-pad{padding:1.2rem} .card-top{padding:1rem 1rem 0} .card-body{padding:1rem 1rem 1.15rem}
 
-<main id="maincontent">
-  <section class="hero">
-    <div class="container hero-grid">
-      <div class="panel hero-main">
-        <span class="badge">Affiliate-ready V7 • SEO & AI-search sterk ingericht</span>
-        <h1>De glutenvrije site waar je alles op één plek vindt</h1>
-        <p>Aanbiedingen, prijsvergelijkingen, veilige horeca, etiketten lezen, kruisbesmetting, school, uit eten en praktische gidsen. Alles op een rustige, warme en duidelijke manier bij elkaar.</p>
-        <div class="hero-actions">
-          <a href="aanbiedingen.html" class="btn btn-primary">Bekijk aanbiedingen</a>
-          <a href="veilig-glutenvrij.html" class="btn btn-secondary">Veilig glutenvrij</a>
-          <a href="restaurants.html" class="btn btn-ghost">Restaurants</a>
-        </div>
-        <div class="stats"><div class="stat"><strong>0,5–1%</strong><span class="small">geschatte prevalentie coeliakie in Nederland</span></div><div class="stat"><strong>~180.000</strong><span class="small">Nederlanders met coeliakie volgens NCV-schatting</span></div><div class="stat"><strong>12 juni 2026</strong><span class="small">laatste prijsupdate in gebruikte supermarktbron</span></div></div>
-      </div>
-      <aside class="panel mixbook-visual"><img src="assets/img/hero-glutenvrij.png" alt="Premium hero afbeelding van GlutenvrijGelijker.nl met logo en zachte kleuren"></aside>
-    </div>
-  </section>
+/* NIEUW: Zorgt dat de productkaartjes niet in de war raken als er nog geen foto is */
+.card-image {
+  width: calc(100% - 2rem);
+  margin: 1rem auto 0;
+  height: 180px;
+  background: var(--surface-mint);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: white;
+}
 
-  <section class="section"><div class="container"><div class="kicker">Waarom deze versie sterker is</div><h2>Mixbook-geïnspireerde premium opbouw, maar dan voor glutenvrij</h2><p class="lead">Grote hero, duidelijke categorieblokken, veel visuele panelen, kaart-achtige secties en een rustiger premium merkgevoel dat past bij de kleuren uit jouw logo.</p><div class="grid-3" style="margin-top:1rem"><article class="card card-pad"><div class="icon">★</div><h3>Mixbook-geïnspireerde uitstraling</h3><p>Warme premium sfeer, duidelijke categorieblokken, grote hero en veel kaart-achtige secties.</p></article><article class="card card-pad"><div class="icon">€</div><h3>Centraal affiliatebeheer</h3><p>Je wijzigt de affiliate-url's voortaan op één centrale plek in plaats van verspreid door losse HTML-bestanden.</p></article><article class="card card-pad"><div class="icon">✓</div><h3>SEO en AI-search ingericht</h3><p>Sterke metadata, canonicals, structured data, sitemap, interne links en duidelijke informatie-architectuur.</p></article></div></div></section>
-
-  <section class="section">
-    <div class="container">
-      <div class="flex-head">
-        <div>
-          <div class="kicker">Actuele aanbiedingen</div>
-          <h2>Wat je nú al meteen ziet</h2>
-          <p class="lead">Een selectie actuele webshopsignalen uit juni 2026. De complete snapshot staat op de aanbiedingenpagina. De zichtbare kaarten blijven staan; de url’s beheer je centraal.</p>
-        </div>
-        <a href="aanbiedingen.html" class="card-link">Alles bekijken →</a>
-      </div>
-      <div class="grid-3" style="margin-top:1rem">
-        
-        <article class="card">
-          <div class="card-top">
-            <div class="meta"><span class="pill">Glutenvrijemarkt</span><span>-25%</span></div>
-          </div>
-          <div class="card-image">
-            <img src="https://via.placeholder.com/400x250/fff4ef/b35734?text=Sch%C3%A4r+Baguette" alt="Schär Mini Baguette">
-          </div>
-          <div class="card-body">
-            <h3>Schär Mini Baguette Duo 150g</h3>
-            <p><strong>€2,39</strong> → <strong>€1,79</strong></p>
-            <p style="margin-top:.9rem"><a class="card-link" data-affiliate-key="schar-mini-baguette" data-fallback="https://www.glutenvrijemarkt.com/aanbiedingen/" href="https://www.glutenvrijemarkt.com/aanbiedingen/">Bekijk deal ↗</a></p>
-          </div>
-        </article>
-
-        <article class="card">
-          <div class="card-top">
-            <div class="meta"><span class="pill">Glutenvrijemarkt</span><span>-25%</span></div>
-          </div>
-          <div class="card-image">
-            <img src="https://via.placeholder.com/400x250/fff4ef/b35734?text=Sch%C3%A4r+Bon+Matin" alt="Schär Bon Matin">
-          </div>
-          <div class="card-body">
-            <h3>Schär Bon Matin 200g</h3>
-            <p><strong>€3,39</strong> → <strong>€2,54</strong></p>
-            <p style="margin-top:.9rem"><a class="card-link" data-affiliate-key="schar-bon-matin" data-fallback="https://www.glutenvrijemarkt.com/aanbiedingen/marktdeals/" href="https://www.glutenvrijemarkt.com/aanbiedingen/marktdeals/">Bekijk deal ↗</a></p>
-          </div>
-        </article>
-
-        <article class="card">
-          <div class="card-top">
-            <div class="meta"><span class="pill">Glutenvrije Webshop</span><span>-60%</span></div>
-          </div>
-          <div class="card-image">
-            <img src="https://via.placeholder.com/400x250/f2faf8/247766?text=Pasta+Alfabet" alt="Sam Mills Pasta Alfabet">
-          </div>
-          <div class="card-body">
-            <h3>Sam Mills Pasta Alfabet</h3>
-            <p><strong>€2,49</strong> → <strong>€0,99</strong></p>
-            <p style="margin-top:.9rem"><a class="card-link" data-affiliate-key="sam-mills-pasta-alfabet" data-fallback="https://www.glutenvrijewebshop.nl/glutenvrije-aanbiedingen/allergie-informatie/glutenvrij/toon/all.html" href="https://www.glutenvrijewebshop.nl/glutenvrije-aanbiedingen/allergie-informatie/glutenvrij/toon/all.html">Bekijk deal ↗</a></p>
-          </div>
-        </article>
-
-        <article class="card">
-          <div class="card-top">
-            <div class="meta"><span class="pill">Glutenvrije Webshop</span><span>-50%</span></div>
-          </div>
-          <div class="card-image">
-            <img src="https://via.placeholder.com/400x250/f2faf8/247766?text=Confetti+Koek" alt="GW Basics Confetti Koek">
-          </div>
-          <div class="card-body">
-            <h3>GW Basics Confetti Koek</h3>
-            <p><strong>€1,99</strong> → <strong>€0,99</strong></p>
-            <p style="margin-top:.9rem"><a class="card-link" data-affiliate-key="gw-confetti-koek" data-fallback="https://www.glutenvrijewebshop.nl/glutenvrije-aanbiedingen/allergie-informatie/glutenvrij/toon/all.html" href="https://www.glutenvrijewebshop.nl/glutenvrije-aanbiedingen/allergie-informatie/glutenvrij/toon/all.html">Bekijk deal ↗</a></p>
-          </div>
-        </article>
-
-        <article class="card">
-          <div class="card-top">
-            <div class="meta"><span class="pill">WinkelGlutenvrij</span><span>-33%</span></div>
-          </div>
-          <div class="card-image">
-            <img src="https://via.placeholder.com/400x250/f6e7ff/d29df4?text=Juspoeder" alt="Consenza Juspoeder">
-          </div>
-          <div class="card-body">
-            <h3>Consenza Juspoeder</h3>
-            <p><strong>€2,59</strong> → <strong>€1,72</strong></p>
-            <p style="margin-top:.9rem"><a class="card-link" data-affiliate-key="consenza-juspoeder" data-fallback="https://www.winkelglutenvrij.nl/" href="https://www.winkelglutenvrij.nl/">Bekijk deal ↗</a></p>
-          </div>
-        </article>
-
-        <article class="card">
-          <div class="card-top">
-            <div class="meta"><span class="pill">WinkelGlutenvrij</span><span>-23%</span></div>
-          </div>
-          <div class="card-image">
-            <img src="https://via.placeholder.com/400x250/f6e7ff/d29df4?text=Bouillon" alt="Sublimix Groentebouillon">
-          </div>
-          <div class="card-body">
-            <h3>Sublimix Tellofix Gold Groentebouillon 900g</h3>
-            <p><strong>€15,49</strong> → <strong>€11,88</strong></p>
-            <p style="margin-top:.9rem"><a class="card-link" data-affiliate-key="sublimix-tellofix-groentebouillon" data-fallback="https://www.winkelglutenvrij.nl/" href="https://www.winkelglutenvrij.nl/">Bekijk deal ↗</a></p>
-          </div>
-        </article>
-
-      </div>
-    </div>
-  </section>
-
-  <section class="section"><div class="container"><div class="grid-2"><div class="panel mixbook-visual"><img src="assets/img/hero-aanbiedingen.png" alt="Visuele aanbiedingenafbeelding in premium kaartstijl"></div><div class="note-band"><div class="kicker" style="color:#fef3c7">Voor deals én vertrouwen</div><h2 style="margin-top:.35rem">Zichtbare inhoud voor bezoekers, centraal beheer voor jou</h2><p>Dat combineert het beste van twee werelden: bezoekers zien meteen echte inhoud en jij hoeft later je affiliate-links alleen nog centraal te beheren in één bestand.</p><div class="hero-actions"><a class="btn btn-secondary" href="aanbiedingen.html">Open aanbiedingen</a></div></div></div></div></section>
-
-  <section class="section"><div class="container"><div class="flex-head"><div><div class="kicker">Actuele feiten</div><h2>Belangrijke context voor Nederland</h2><p class="lead">Van coeliakiecijfers tot horeca-overzichten en groei van volledig glutenvrije locaties.</p></div><a href="actueel.html" class="card-link">Meer context →</a></div><div class="grid-4" style="margin-top:1rem"><article class="card card-pad"><div class="icon">i</div><h3>Coeliakie in Nederland</h3><p>De geschatte prevalentie in Nederland is 0,5–1% en ongeveer 180.000 Nederlanders hebben coeliakie.</p><p style="margin-top:.9rem"><a class="card-link" href="https://www.glutenvrij.nl/professionals/arts/feiten-cijfers" target="_blank" rel="noopener noreferrer">NCV / Glutenvrij.nl ↗</a></p></article><article class="card card-pad"><div class="icon">i</div><h3>Meer mensen eten glutenvrij</h3><p>6% van de Nederlandse bevolking geeft aan klachten van gluten te krijgen en daarom glutenvrij te eten.</p><p style="margin-top:.9rem"><a class="card-link" href="https://www.glutenvrij.nl/professionals/arts/feiten-cijfers" target="_blank" rel="noopener noreferrer">NCV / Glutenvrij.nl ↗</a></p></article><article class="card card-pad"><div class="icon">i</div><h3>Volledig glutenvrije horeca groeit</h3><p>Een Nederlands overzicht noemde op 1 juni 2026 35 volledig glutenvrije restaurants in Nederland.</p><p style="margin-top:.9rem"><a class="card-link" href="https://ikbenglutenvrij.nl/volledig-glutenvrije-restaurants/" target="_blank" rel="noopener noreferrer">Ik ben glutenvrij ↗</a></p></article><article class="card card-pad"><div class="icon">i</div><h3>Actuele horeca-overzichten bestaan</h3><p>De NCV beheert een horeca-overzicht van glutenvrije locaties met keurmerk of controle.</p><p style="margin-top:.9rem"><a class="card-link" href="https://www.glutenvrij.nl/overzicht-glutenvrije-restaurants" target="_blank" rel="noopener noreferrer">NCV horeca-overzicht ↗</a></p></article></div></div></section>
-
-  <section class="section"><div class="container grid-2"><div class="panel mixbook-visual"><img src="assets/img/hero-veilig.png" alt="Veilig glutenvrij themabeeld"></div><div class="card card-pad"><div class="kicker">Veilig glutenvrij</div><h2 style="margin-top:.35rem">Etiketten, kruisbesmetting, keurmerk en wat je wel of niet kunt eten</h2><p>Daarom staat er nu een aparte pagina “Veilig glutenvrij” op de site, zodat mensen snel die basisinformatie kunnen vinden.</p><ul class="list" style="margin-top:1rem"><li><span class="ok">✓</span><span>Etiketten lezen</span></li><li><span class="ok">✓</span><span>Kruisbesmetting en waarschuwingen</span></li><li><span class="ok">✓</span><span>Crossed Grain keurmerk</span></li></ul><p style="margin-top:1rem"><a class="card-link" href="veilig-glutenvrij.html">Open deze pagina →</a></p></div></div></section>
-
-  <section class="section"><div class="container"><div class="kicker">Restaurants</div><h2>Glutenvrije horeca en restaurants</h2><p class="lead">Voorbeelden van plekken die in actuele overzichten terugkomen. Controleer vlak voor een bezoek altijd nog even de actuele situatie.</p><div class="grid-3" style="margin-top:1rem"><article class="card card-pad"><div class="meta"><span class="pill">Utrecht</span><span>Restaurant</span></div><h3 style="margin-top:.75rem">Gys</h3><p>Komt terug in bekende glutenvrije horecaoverzichten en lijsten met volledig glutenvrije restaurants.</p><p style="margin-top:.9rem"><a class="card-link" href="https://ikbenglutenvrij.nl/volledig-glutenvrije-restaurants/" target="_blank" rel="noopener noreferrer">Meer info ↗</a></p></article><article class="card card-pad"><div class="meta"><span class="pill">Amsterdam</span><span>Restaurant</span></div><h3 style="margin-top:.75rem">Bloem Eten & Drinken</h3><p>Wordt genoemd in het horecaoverzicht van de NCV.</p><p style="margin-top:.9rem"><a class="card-link" href="https://www.glutenvrij.nl/overzicht-glutenvrije-restaurants" target="_blank" rel="noopener noreferrer">Meer info ↗</a></p></article><article class="card card-pad"><div class="meta"><span class="pill">Haarlem</span><span>Foodtruck / winkel</span></div><h3 style="margin-top:.75rem">Ciao Gluten</h3><p>Staat in het actuele horecaoverzicht van de NCV.</p><p style="margin-top:.9rem"><a class="card-link" href="https://www.glutenvrij.nl/overzicht-glutenvrije-restaurants" target="_blank" rel="noopener noreferrer">Meer info ↗</a></p></article><article class="card card-pad"><div class="meta"><span class="pill">Almere</span><span>Bakkerij</span></div><h3 style="margin-top:.75rem">Craft Coffee & Pastry</h3><p>Komt terug in actuele glutenvrije overzichten.</p><p style="margin-top:.9rem"><a class="card-link" href="https://www.glutenvrij.nl/overzicht-glutenvrije-restaurants" target="_blank" rel="noopener noreferrer">Meer info ↗</a></p></article><article class="card card-pad"><div class="meta"><span class="pill">Gouda</span><span>Ontbijt / lunch</span></div><h3 style="margin-top:.75rem">Miss Nice Banana</h3><p>Staat in een overzicht van volledig glutenvrije restaurants in Nederland.</p><p style="margin-top:.9rem"><a class="card-link" href="https://ikbenglutenvrij.nl/volledig-glutenvrije-restaurants/" target="_blank" rel="noopener noreferrer">Meer info ↗</a></p></article><article class="card card-pad"><div class="meta"><span class="pill">Rotterdam</span><span>Restaurant</span></div><h3 style="margin-top:.75rem">Celia’s Kitchen</h3><p>Komt voor in glutenvrije horeca-overzichten.</p><p style="margin-top:.9rem"><a class="card-link" href="https://www.glutenvrij.nl/overzicht-glutenvrije-restaurants" target="_blank" rel="noopener noreferrer">Meer info ↗</a></p></article></div></div></section>
-
-  <section class="section"><div class="container"><div class="kicker">Veelgestelde vragen</div><h2>Belangrijke antwoorden voor beheer en livegang</h2><div class="grid-2" style="margin-top:1rem"><article class="card faq-item"><button class="faq-toggle" aria-expanded="false" aria-controls="faq1">Kan ik affiliate links makkelijk aanpassen?</button><div id="faq1" hidden style="padding-top:.75rem;color:var(--muted)">Ja. Je hoeft vooral assets/js/affiliate-links.js aan te passen. De zichtbare kaarten blijven staan; alleen de url's veranderen centraal.</div></article><article class="card faq-item"><button class="faq-toggle" aria-expanded="false" aria-controls="faq2">Zijn de aanbiedingen meteen zichtbaar?</button><div id="faq2" hidden style="padding-top:.75rem;color:var(--muted)">Ja. De aanbiedingen staan zichtbaar in de HTML. JavaScript gebruikt alleen de juiste affiliate-url per product.</div></article><article class="card faq-item"><button class="faq-toggle" aria-expanded="false" aria-controls="faq3">Is deze site geschikt voor GitHub Pages?</button><div id="faq3" hidden style="padding-top:.75rem;color:var(--muted)">Ja. De site is volledig statisch en bevat een workflow voor GitHub Pages.</div></article><article class="card faq-item"><button class="faq-toggle" aria-expanded="false" aria-controls="faq4">Is 100% SEO-garantie mogelijk?</button><div id="faq4" hidden style="padding-top:.75rem;color:var(--muted)">Nee. Niemand kan rankings of AI-citaties garanderen. Deze site is wel technisch en inhoudelijk zo ingericht dat hij sterk aansluit op actuele best practices.</div></article></div></div></section>
-
-  <section class="section"><div class="container card newsletter"><div><div class="kicker">Nieuwsbrief en contact</div><h2>Glutenvrij Gelijker helpt bezoekers rustig en slim kiezen</h2><p class="lead">Launchadres op de site: <strong>info@glutenvrijgelijker.nl</strong>. Koppel later een echte nieuwsbriefdienst voor echte inschrijvingen.</p></div><div><form id="newsletterForm" class="form-inline"><input type="email" placeholder="Jouw e-mailadres" required><button class="btn btn-primary" type="submit">Aanmelden</button></form><div id="newsletterMessage" class="notice"></div></div></div></section>
-</main>
-
-<div id="cookieBanner" class="cookie-banner" role="dialog" aria-live="polite" aria-label="Cookie toestemming">
-  <div class="cookie-grid">
-    <div>
-      <div class="cookie-title">Deze site gebruikt glutervrije cookies 🍪</div>
-      <div class="cookie-text">We gebruiken alleen wat nodig is om de site goed te laten werken. Voor analytics of optionele affiliate-scripts vragen we eerst toestemming.</div>
-    </div>
-    <div class="cookie-actions">
-      <button id="cookieEssential" class="btn btn-secondary" type="button">Alleen noodzakelijke cookies</button>
-      <button id="cookieAccept" class="btn btn-primary" type="button">Ik wil glutervrije cookies</button>
-    </div>
-  </div>
-</div>
-<footer class="footer">
-  <div class="container footer-grid">
-    <div>
-      <div class="logo-full"><img src="assets/img/logo-full.png" alt="Volledig logo van GlutenvrijGelijker.nl"></div>
-      <p class="small" style="margin-top:1rem">Een moderne glutenvrije website met actuele aanbiedingen, gidsen, horeca, etiketten-uitleg, schooltips en handige startinformatie.</p>
-      <p class="small">Sommige links op deze site zijn affiliatelinks. Als iemand via zo'n link iets koopt, kan deze site een kleine vergoeding krijgen. Dat kost de bezoeker niets extra.</p>
-    </div>
-    <div>
-      <h4>Snel naar</h4>
-      <ul class="list small">
-        <li><a href="aanbiedingen.html">Aanbiedingen</a></li>
-        <li><a href="veilig-glutenvrij.html">Veilig glutenvrij</a></li>
-        <li><a href="restaurants.html">Restaurants</a></li>
-        <li><a href="uit-eten.html">Uit eten</a></li>
-        <li><a href="school-kinderen.html">School & kinderen</a></li>
-        <li><a href="bronnen.html">Bronnen</a></li>
-      </ul>
-    </div>
-    <div>
-      <h4>Praktisch</h4>
-      <ul class="list small">
-        <li><a href="privacy.html">Privacy</a></li>
-        <li><a href="cookiebeleid.html">Cookiebeleid</a></li>
-        <li><a href="disclaimer.html">Disclaimer</a></li>
-        <li><a href="security.html">Security</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="container" style="margin-top:1rem"><small class="small">© <span id="year"></span> GlutenvrijGelijker.nl • Laatste update: 2026-06-15</small></div>
-</footer>
-<script src="assets/js/affiliate-links.js"></script>
-<script src="assets/js/app.js"></script>
-</body>
-</html>
+.icon{width:50px;height:50px;border-radius:17px;display:grid;place-items:center;background:#fff0df;color:#b35734;font-size:1.2rem;font-weight:900;margin-bottom:.8rem} .card h3{margin:.15rem 0 .45rem;letter-spacing:-.02em} .card p{margin:0 0 .75rem;color:var(--muted)}
+.pill{display:inline-flex;align-items:center;gap:.4rem;padding:.36rem .62rem;border-radius:999px;background:var(--surface-mint);border:1px solid #cde9e2;color:#247766;font-size:.8rem;font-weight:900} .meta{display:flex;gap:.55rem;flex-wrap:wrap;color:var(--muted);font-size:.92rem} .card-link{color:#b35734;font-weight:900}
+.small{color:var(--muted);font-size:.94rem} .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:.85rem;margin-top:1rem} .stat{padding:1rem;border-radius:22px;background:linear-gradient(180deg,#fff,#fff8f2);border:1px solid var(--line)} .stat strong{display:block;font-size:1.4rem;letter-spacing:-.03em}
+.note-band{padding:1.4rem 1.5rem;border-radius:30px;background:linear-gradient(135deg,#17386f,#4f8b3c);color:white;box-shadow:var(--shadow-strong)} .note-band p{color:rgba(255,255,255,.86)}
+.list{list-style:none;padding:0;margin:0;display:grid;gap:.75rem} .list li{display:flex;align-items:flex-start;gap:.66rem} .ok{width:24px;height:24px;border-radius:999px;display:inline-grid;place-items:center;background:var(--brand-4);color:white;font-size:.82rem;font-weight:900;flex:0 0 auto;margin-top:2px}
+.newsletter{padding:1.3rem;display:grid;grid-template-columns:1.12fr .88fr;gap:1rem;align-items:center} .form-inline{display:flex;gap:.75rem;flex-wrap:wrap} .form-inline input{flex:1 1 250px;padding:1rem;border-radius:18px;border:1px solid var(--line);font:inherit} .notice{margin-top:.8rem;color:var(--muted);font-size:.95rem}
+.cookie-banner{position:fixed;left:20px;right:20px;bottom:18px;z-index:70;background:rgba(255,255,255,.96);backdrop-filter:blur(12px);border:1px solid var(--line);box-shadow:var(--shadow-strong);border-radius:24px;padding:1rem 1rem .95rem} .cookie-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:1rem;align-items:center} .cookie-title{font-size:1.06rem;font-weight:900;margin-bottom:.25rem} .cookie-text{font-size:.95rem;color:var(--muted)} .cookie-actions{display:flex;gap:.6rem;flex-wrap:wrap;justify-content:flex-end}
+.faq-item{padding:1rem 1.1rem} .faq-toggle{width:100%;text-align:left;background:none;border:0;font:inherit;font-weight:900;padding:0;cursor:pointer}
+.footer{margin-top:2rem;padding:2.4rem 0 3rem;border-top:1px solid rgba(236,217,202,.95)} .footer-grid{display:grid;grid-template-columns:1.2fr .6fr .6fr;gap:1rem} .footer h4{margin:0 0 .7rem} .footer a{color:var(--muted)} .footer a:hover{color:#b35734} .logo-full{max-width:460px;border-radius:20px;overflow:hidden;border:1px solid rgba(236,217,202,.95);box-shadow:var(--shadow)}
+@media (max-width:1040px){.hero-grid,.newsletter,.grid-4,.grid-3,.grid-2,.cookie-grid,.footer-grid{grid-template-columns:1fr} .stats{grid-template-columns:1fr} .cookie-actions{justify-content:flex-start}}
+@media (max-width:760px){.nav{flex-direction:column;align-items:flex-start} .hero{padding-top:2.5rem} .hero-main{padding:1.2rem} .mosaic{padding:1rem} .logo-mark{width:50px;height:50px}}
