@@ -1,0 +1,50 @@
+Stap voor stap handleiding – GlutenvrijGelijker.nl
+
+1. Download eerst het zip-bestand op je computer.
+2. Pak het zip-bestand uit in een nieuwe map.
+3. Controleer of je de map ziet met bestanden zoals index.html, aanbiedingen.html en een map assets.
+4. Open GitHub in je browser en log in.
+5. Klik rechtsboven op het plusje en klik dan op New repository.
+6. Vul als naam in: glutenvrijgelijker of een naam die jij wilt.
+7. Zet de repository op Public als je de site via GitHub Pages wilt publiceren.
+8. Klik op Create repository.
+9. Klik daarna op uploading an existing file.
+10. Sleep alle uitgepakte sitebestanden en mappen tegelijk in het uploadvak.
+11. Wacht tot GitHub alles heeft ingeladen.
+12. Scroll naar beneden en klik op Commit changes.
+13. Ga nu naar Settings van je repository.
+14. Klik in het linkermenu op Pages.
+15. Kies bij Source voor GitHub Actions.
+16. Wacht daarna even. GitHub gebruikt nu automatisch het workflow-bestand dat ik al heb toegevoegd.
+17. Ga naar het tabblad Actions als je wilt zien of het publiceren loopt.
+18. Als de workflow klaar is, ga terug naar Settings > Pages.
+19. Daar zie je het webadres van je site.
+20. Open dat adres en klik door de site heen.
+
+Affiliate-links aanpassen
+1. Open de map assets/js.
+2. Open het bestand affiliate-links.js in Kladblok, VS Code of een andere editor.
+3. Zoek bijvoorbeeld de regel van schar-mini-baguette.
+4. Vervang alleen de url tussen de aanhalingstekens door jouw echte affiliate-link.
+5. Sla het bestand op.
+6. Upload daarna alleen dat aangepaste bestand opnieuw naar GitHub.
+7. Commit de wijziging.
+8. GitHub publiceert de update automatisch opnieuw.
+
+Logo aanpassen
+1. In assets/img staan logo-full.png en logo-mark.png.
+2. logo-full.png is voor grotere weergave, bijvoorbeeld footer of social preview.
+3. logo-mark.png is de compacte versie voor bovenin de site.
+
+Wat jij altijd even moet checken voor livegang
+1. Werkt je mailadres echt?
+2. Kloppen je affiliate-links?
+3. Heb je je privacytekst aangepast op jouw echte tools?
+4. Werken Home, Aanbiedingen, Veilig glutenvrij en Contact goed?
+
+Als je een eigen domeinnaam wilt
+1. Koop je domeinnaam bij een provider.
+2. Ga in GitHub naar Settings > Pages.
+3. Vul daar je eigen domeinnaam in bij Custom domain.
+4. Zet daarna bij je domeinprovider de juiste DNS-records zoals GitHub uitlegt.
+5. Zet daarna HTTPS aan als GitHub dat aanbiedt.

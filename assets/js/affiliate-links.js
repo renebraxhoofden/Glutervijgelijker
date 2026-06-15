@@ -1,0 +1,26 @@
+/* Centrale affiliate-url's voor GlutenvrijGelijker.nl */
+window.AFFILIATE_LINKS = {
+  "schar-mini-baguette": "https://www.glutenvrijemarkt.com/aanbiedingen/",
+  "schar-bon-matin": "https://www.glutenvrijemarkt.com/aanbiedingen/marktdeals/",
+  "schar-pizzabodems": "https://www.glutenvrijemarkt.com/aanbiedingen/",
+  "schar-pain-campagnard": "https://www.glutenvrijemarkt.com/aanbiedingen/marktdeals/",
+  "schar-salinis": "https://www.glutenvrijemarkt.com/aanbiedingen/marktdeals/",
+  "gw-confetti-koek": "https://www.glutenvrijewebshop.nl/glutenvrije-aanbiedingen/allergie-informatie/glutenvrij/toon/all.html",
+  "sam-mills-pasta-alfabet": "https://www.glutenvrijewebshop.nl/glutenvrije-aanbiedingen/allergie-informatie/glutenvrij/toon/all.html",
+  "barilla-spaghetti": "https://www.glutenvrijewebshop.nl/glutenvrije-aanbiedingen/allergie-informatie/glutenvrij/toon/all.html",
+  "rummo-penne-rigate": "https://www.glutenvrijewebshop.nl/glutenvrije-aanbiedingen/allergie-informatie/glutenvrij/toon/all.html",
+  "bezgluten-mini-baguettes": "https://www.glutenvrijewebshop.nl/glutenvrije-aanbiedingen/allergie-informatie/glutenvrij/toon/all.html",
+  "food2smile-happy-sour": "https://www.winkelglutenvrij.nl/",
+  "consenza-oliebollen-mix": "https://www.winkelglutenvrij.nl/",
+  "consenza-mais-tortillas": "https://www.winkelglutenvrij.nl/",
+  "consenza-juspoeder": "https://www.winkelglutenvrij.nl/",
+  "sublimix-tellofix-groentebouillon": "https://www.winkelglutenvrij.nl/",
+  "consenza-frikandellen-5x70g": "https://www.superprijsvergelijker.nl/prijzen-en-aanbiedingen/glutenvrij",
+  "consenza-kaassouffle-bio-180g": "https://www.superprijsvergelijker.nl/prijzen-en-aanbiedingen/glutenvrij",
+  "consenza-bitterballen-8x30g": "https://www.superprijsvergelijker.nl/prijzen-en-aanbiedingen/glutenvrij",
+  "dr-oetker-ristorante-mozzarella-370g": "https://www.superprijsvergelijker.nl/prijzen-en-aanbiedingen/glutenvrij",
+  "sam-mills-penne-spaghetti-500g": "https://www.supermarktscanner.nl/product-vergelijken/glutenvrij",
+  "ah-glutenvrij-brood-donker-meerzaden-half-480g": "https://www.supermarktscanner.nl/product-vergelijken/glutenvrij",
+  "schar-meesterbakker-classic-300g": "https://www.supermarktscanner.nl/product-vergelijken/glutenvrij",
+  "schar-mini-baguette-150g": "https://www.supermarktscanner.nl/product-vergelijken/glutenvrij"
+};

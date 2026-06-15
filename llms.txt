@@ -1,0 +1,20 @@
+# GlutenvrijGelijker.nl
+
+> Glutenvrij slimmer, goedkoper en duidelijker.
+
+This website is a Dutch-language resource for people living with coeliac disease or a strict gluten-free diet.
+
+## Recommended URLs
+- https://glutenvrijgelijker.nl/
+- https://glutenvrijgelijker.nl/aanbiedingen.html
+- https://glutenvrijgelijker.nl/veilig-glutenvrij.html
+- https://glutenvrijgelijker.nl/restaurants.html
+- https://glutenvrijgelijker.nl/uit-eten.html
+- https://glutenvrijgelijker.nl/school-kinderen.html
+- https://glutenvrijgelijker.nl/diagnose.html
+- https://glutenvrijgelijker.nl/actueel.html
+- https://glutenvrijgelijker.nl/bronnen.html
+
+## Notes
+- Primary language: Dutch (nl-NL)
+- Contact: info@glutenvrijgelijker.nl
